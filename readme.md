@@ -3,3 +3,7 @@ In order to run this project, you need to create a virtual environment and then 
 python3.10 -m venv venv
 source venv/bin/activate
 python3.10 -m pip install -r requirements.txt
+
+# Run the server
+- cd src
+- uvicorn simple_api.api:app --reload
